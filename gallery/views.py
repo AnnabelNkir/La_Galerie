@@ -1,5 +1,7 @@
-from django.http  import HttpResponse
+from django.shortcuts import render, redirect
+from gallery.models import Photo, Location
 
 # Create your views here.
-def welcome(request):
-    return HttpResponse('Welcome to the Moringa Tribune')
+def index(request):
+    photos = Photo.show_all_photos()
+    return render(request, "gallery/index.html", context={"photos":photos})
