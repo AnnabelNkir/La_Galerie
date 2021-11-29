@@ -49,11 +49,11 @@ class Category(models.Model):
 
 class Photo(models.Model):
     """
-    A class thaat determines how photos will be saved into the database
+    A class that determines how photos will be saved into the database
     """
     name = models.CharField(max_length=244)
     description = models.TextField()
-    location = models.ForeignKey(Location)
+    # location = models.ForeignKey(Location)
     categories = models.ManyToManyField(Category)
     post_date = models.DateTimeField(auto_now_add=True)
     image = ImageField(blank=True, manual_crop="800x800")
