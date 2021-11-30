@@ -28,6 +28,7 @@ class Location(models.Model):
     def find_photos_by_location(cls, id):
         return cls.objects.filter(photo__location__id = id)
 
+
 class Category(models.Model):
     """
     A class for the category the Photo falls under

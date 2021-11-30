@@ -5,6 +5,7 @@ html{
 body{
     color: goldenrod;
     font-family: 'Lateef', cursive;
+    font-size: 20px;
 }
 
 .jumbotron{
@@ -22,6 +23,7 @@ button:focus {
 
 .list-inline-item > a{
     color: goldenrod;
+    font-size: 30px;
 }
 
 .no-radius{
@@ -68,7 +70,7 @@ span .badge{
    text-decoration: none;
    text-align: center;
    line-height: 50px;
-   font-size: 22px;
+   font-size: 42px;
 }
 
 .backtop a{
