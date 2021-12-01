@@ -19,9 +19,9 @@ Step 2 : The repository, if downloaded as a .zip file will need to be extracted 
 
 Step 3 : Open the terminal, go to the project directory and run the following commands: 
 
-.pip install virtualenv
-.virtualenv venv
-.source venv/bin/activate
++ pip install virtualenv
++ virtualenv venv
++ source venv/bin/activate
 
 Step 4 : Download the all dependencies in the requirements.txt using pip install -r requirements.txt
 
@@ -41,7 +41,7 @@ The user is expected to navigate seamlessly through the application.
 + A user can view different photos that interest me.
 + A user can click on a single photo to expand it and also view the details of the photo. The photo  details must appear on a modal within the same route as the main page.
 + A user can search for different categories of photos. (ie. Travel, Food, Nature)
-+ A user can copy a link to the photo to share with my friends.
++ A user can copy a link to the photo to share with my friends and family.
 + A user can view photos based on the location they were taken.
 
 ```
