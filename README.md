@@ -13,7 +13,7 @@ This program requires python3.+ (and pip) installed, a guide on how to install p
 
 To view the app, ensure you have the required modules installed. Here is a run through of how to set up the application:
 ```
-Step 1 : Clone this repository using git clone https://github.com/AnnabelNkir/La_Galerie.git, or downloading a ZIP file of the code.
+Step 1 : Clone this repository using git clone https://github.com/AnnabelNkir/La_Galerie.git or downloading a ZIP file of the code.
 
 Step 2 : The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened.
 
